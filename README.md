@@ -1,1 +1,1 @@
-# nlp_news_sum
+# NLP News Summary-Sentiment Project
