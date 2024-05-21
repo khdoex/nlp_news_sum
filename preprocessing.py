@@ -34,6 +34,8 @@ def data_chunks(dataset, chunk_size=40000):
         chunked_data.append(chunk)
         # Save each chunk as a CSV file
         chunk_df = pd.DataFrame(chunk)
+        # drop na
+        chunk_df = chunk_df.dropna()
         chunk_df.to_csv(f'cnn_chunk_{i//chunk_size}.csv', index=False)
     return chunked_data
 
