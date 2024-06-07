@@ -41,9 +41,9 @@ This project provides a script to generate text summaries using different models
 
 
 ## Script Overview
-Load Data: Loads the input data file containing articles.
-Initialize Model and Tokenizer: Loads the specified summarization model and tokenizer.
-Tokenize Articles: Preprocesses and tokenizes the articles for the model.
-Generate Summaries: Generates summaries for the articles using the model.
-Calculate BERTScore: Calculates BERTScore for the generated summaries against the reference summaries.
-Save Results: Saves the generated summaries along with BERTScore metrics to a CSV file.
+- Load Data: Loads the input data file containing articles.
+- Initialize Model and Tokenizer: Loads the specified summarization model and tokenizer.
+- Tokenize Articles: Preprocesses and tokenizes the articles for the model.
+- Generate Summaries: Generates summaries for the articles using the model.
+- Calculate BERTScore: Calculates BERTScore for the generated summaries against the reference summaries.
+- Save Results: Saves the generated summaries along with BERTScore metrics to a CSV file.
