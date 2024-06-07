@@ -17,7 +17,7 @@ This project provides a script to generate text summaries using different models
     ```
 
 ## Usage
-- Save the Script: Save the script as summarization_and_bert_score.py.
+- Save the Script: Save the script as generate_summaries.py.
 
 - Prepare Your Data: Ensure your data file (e.g., your_data.csv) contains articles and reference summaries.
 
